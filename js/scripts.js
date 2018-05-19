@@ -32,7 +32,7 @@ function createTweet(input) {
 
 $(document).ready(function() {
     getQuote();
-    $('.trigger').click(function() {
+    $(".trigger").click(function() {
         getQuote();
     })
 });
